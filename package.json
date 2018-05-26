@@ -1,0 +1,15 @@
+{
+  "name": "createeventinbucket",
+  "version": "1.0.0",
+  "description": "This project is for cloud function which will be invoke on creation of file or folder in bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankush V. Nakaskar",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.18.0",
+    "@google-cloud/storage": "^1.7.0"
+  }
+}
